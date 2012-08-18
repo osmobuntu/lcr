@@ -21,6 +21,7 @@ extern "C" {
 }
 
 #include <assert.h>
+#include <sys/socket.h>
 
 #define SOCKET_RETRY_TIMER	5
 

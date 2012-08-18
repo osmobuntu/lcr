@@ -12,6 +12,8 @@
 #include "main.h"
 #include "mncc.h"
 
+#include <sys/socket.h>
+
 struct lcr_gsm *gsm_bs = NULL;
 
 #define PAYLOAD_TYPE_GSM 3
