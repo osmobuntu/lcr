@@ -20,6 +20,8 @@
 ##    the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
 ##    Boston, MA 02110-1301, USA.
 
+SUBDIRS = man
+
 #INSTALLdir = $(DESTDIR)/usr/local/lcr
 
 pkglogdir=$(localstatedir)/log/@PACKAGE@

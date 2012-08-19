@@ -249,8 +249,10 @@ AC_FUNC_VPRINTF
 AC_CHECK_FUNCS([gettimeofday memmove memset mkdir socket strcasecmp strchr strerror strncasecmp strstr strtol strtoul])
 
 
-AC_CONFIG_FILES([Makefile])
-AC_OUTPUT
+AC_OUTPUT(
+	Makefile
+	man/Makefile
+)
 
 
 AS_IF([test "x$with_misdn" == xyes],[AC_MSG_NOTICE( Compiled with mISDN support )],[AC_MSG_NOTICE( Not compiled with mISDN support)])
