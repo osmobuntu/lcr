@@ -1,3 +1,9 @@
+lcr (1.12~20120819~codebutler0) precise; urgency=low
+
+  * Update package!
+
+ -- Eric Butler <eric@codebutler.com>  Sun, 19 Aug 2012 02:04:45 -0700
+
 lcr (1.6~20090906-1) UNRELEASED; urgency=low
 
   [ Joerg Dorchain ]
