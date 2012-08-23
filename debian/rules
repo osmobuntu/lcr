@@ -4,4 +4,4 @@
 	dh --with autoreconf $@ --fail-missing
 
 override_dh_auto_configure:
-	dh_auto_configure -- --with-asterisk --with-gsm-bs
+	dh_auto_configure -- --with-asterisk --with-gsm-bs --with-sip

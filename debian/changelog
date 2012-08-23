@@ -1,3 +1,10 @@
+lcr (1.12~20120819~codebutler1) precise; urgency=low
+
+  * Enable SIP. 
+  * Update to upstream git 6911e09b77aa1eaac35b595bb4082e1f4c59ca71.
+
+ -- Eric Butler <eric@codebutler.com>  Thu, 23 Aug 2012 12:23:21 -0700
+
 lcr (1.12~20120819~codebutler0) precise; urgency=low
 
   * Update package!

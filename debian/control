@@ -3,10 +3,10 @@ Section: comm
 Priority: extra
 Maintainer: Eric Butler <eric@codebutler.com>
 Uploaders: Joerg Dorchain <joerg@dorchain.net>, Victor Seva <linuxmaniac@torreviejawireless.org>
-Build-Depends:  debhelper (>= 7.0.50~), dh-autoreconf, pkg-config, misdnuser-dev, asterisk-dev, libncurses-dev, libgsm1-dev, libssl-dev
+Build-Depends:  debhelper (>= 7.0.50~), dh-autoreconf, pkg-config, misdnuser-dev, asterisk-dev, libncurses-dev, libgsm1-dev, libssl-dev, libsofia-sip-ua-dev
 Standards-Version: 3.8.3
 Homepage: http://www.linux-call-router.de/
-Vcs-Svn: git@github.com:osmobuntu/lcr.git
+Vcs-Git: git@github.com:osmobuntu/lcr.git
 Vcs-Browser: https://github.com/osmobuntu/lcr
 
 Package: lcr
@@ -19,20 +19,19 @@ Description: LinuxCallRouter - an ISDN based PBX for Linux
  solution except for the ISDN cards and telephones. The great benefit is
  the NT-mode that allows to connect telephones to an ISDN card. Special
  cards are needed and a little bit of different cabeling. It supports lots
- of features, that only expensive PBXs have. It include a channel driver
- that can link LCR to Asterisk PBX.
+ of features, that only expensive PBXs have.
 
 Package: lcr-asterisk
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, asterisk, lcr
-Description: LinuxCallRouter - an ISDN based PBX for Linux
+Description: LinuxCallRouter - an ISDN based PBX for Linux (Asterisk module)
  Formerly known as "PBX4Linux", Linux-Call-Router is not only a router,
  it is a real ISDN PBX which interconnects ISDN telephones and ISDN lines.
  It is possible to connect telephones to a Linux box. It is a pure software
  solution except for the ISDN cards and telephones. The great benefit is
  the NT-mode that allows to connect telephones to an ISDN card. Special
  cards are needed and a little bit of different cabeling. It supports lots
- of features, that only expensive PBXs have. It include a channel driver
- that can link LCR to Asterisk PBX.
+ of features, that only expensive PBXs have.
  .
- This package contains the Asterisk module.
+ This package contains the chan_lcr Asterisk module for the old 
+ mISDN_l1loop-based interface.
