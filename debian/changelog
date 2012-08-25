@@ -1,4 +1,11 @@
-lcr (1.12~20120819~codebutler1) precise; urgency=low
+lcr-misdn (1.12~20120819~codebutler3) precise; urgency=low
+
+  * Rename package to 'lcr-misdn'. You probably want the new 'lcr' package
+  instead, which doesn't require mISDN kernel modules.
+
+ -- Eric Butler <eric@codebutler.com>  Fri, 24 Aug 2012 20:23:14 -0700
+
+lcr-misdn (1.12~20120819~codebutler2) precise; urgency=low
 
   * Enable SIP. 
   * Update to upstream git 6911e09b77aa1eaac35b595bb4082e1f4c59ca71.

@@ -1,4 +1,4 @@
-Source: lcr
+Source: lcr-misdn
 Section: comm
 Priority: extra
 Maintainer: Eric Butler <eric@codebutler.com>
@@ -9,9 +9,10 @@ Homepage: http://www.linux-call-router.de/
 Vcs-Git: git@github.com:osmobuntu/lcr.git
 Vcs-Browser: https://github.com/osmobuntu/lcr
 
-Package: lcr
+Package: lcr-misdn
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, lsb-base (>= 3.0-6)
+Conflicts: lcr
 Description: LinuxCallRouter - an ISDN based PBX for Linux
  Formerly known as "PBX4Linux", Linux-Call-Router is not only a router,
  it is a real ISDN PBX which interconnects ISDN telephones and ISDN lines.
@@ -20,10 +21,12 @@ Description: LinuxCallRouter - an ISDN based PBX for Linux
  the NT-mode that allows to connect telephones to an ISDN card. Special
  cards are needed and a little bit of different cabeling. It supports lots
  of features, that only expensive PBXs have.
+ .
+ This package contains an mISDN and SIP enabled build of LCR.
 
-Package: lcr-asterisk
+Package: lcr-misdn-asterisk
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, asterisk, lcr
+Depends: ${shlibs:Depends}, ${misc:Depends}, asterisk, lcr-misdn
 Description: LinuxCallRouter - an ISDN based PBX for Linux (Asterisk module)
  Formerly known as "PBX4Linux", Linux-Call-Router is not only a router,
  it is a real ISDN PBX which interconnects ISDN telephones and ISDN lines.
