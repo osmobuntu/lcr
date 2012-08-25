@@ -170,6 +170,7 @@ case "$1" in
 	;;
   status)
   	status
+	exit $?
 	;;
   restart|force-reload)
 	#
