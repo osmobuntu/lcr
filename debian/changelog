@@ -1,3 +1,9 @@
+lcr (1.12~20120819~codebutler2) precise; urgency=low
+
+  * Disable mISDN.
+
+ -- Eric Butler <eric@codebutler.com>  Fri, 24 Aug 2012 20:17:30 -0700
+
 lcr (1.12~20120819~codebutler1) precise; urgency=low
 
   * Enable SIP. 
